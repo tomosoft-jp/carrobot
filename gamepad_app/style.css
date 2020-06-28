@@ -1,0 +1,81 @@
+.example {
+  position: relative;
+}
+
+.btn {
+  border-style: none;
+  cursor: pointer;
+}
+
+.position-top {
+  background:url(img/top.png) no-repeat;
+  position:absolute;
+  top:60px;
+  left:139px;
+  width:40px;
+  height:57px;
+}
+
+.position-left {
+  background:url(img/left.png) no-repeat;
+  position:absolute;
+  top:116px;
+  left:80px;
+  width:55px;
+  height:46px;
+}
+
+.position-center {
+  background:url(img/center.png) no-repeat;
+  position:absolute;
+  top:116px;
+  left:142px;
+  width:36px;
+  height:46px;
+}
+
+.position-right {
+  background:url(img/right.png) no-repeat;
+  position:absolute;
+  top:116px;
+  left:186px;
+  width:55px;
+  height:46px;
+}
+
+.position-bottom {
+  background:url(img/bottom.png) no-repeat;
+  position:absolute;
+  top:162px;
+  left:141px;
+  width:40px;
+  height:62px;
+}
+
+.position-up {
+  background:url(img/up.png) no-repeat;
+  position:absolute;
+  top:64px;
+  left:483px;
+  width:45px;
+  height:49px;
+}
+
+.position-connect {
+  background:url(img/connect.png) no-repeat;
+  position:absolute;
+  top:115px;
+  left:426px;
+  width:47px;
+  height:48px;
+}
+
+.position-down {
+  background:url(img/down.png) no-repeat;
+  position:absolute;
+  top:183px;
+  left:484px;
+  width:45px;
+  height:32px;
+}
+
