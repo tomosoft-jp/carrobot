@@ -1,4 +1,4 @@
-var connection = new WebSocket('ws://' + '192.168.10.xx' + ':81/', ['arduino']);
+var connection = new WebSocket('ws://' + '192.168.10.20' + ':81/', ['arduino']);
 connection.onopen = function () {
   connection.send('Connect ' + new Date());
 };
@@ -37,11 +37,11 @@ function carmove(id) {
       PWMB = speed;
       break;
 
-    case 'left':
+    case 'right':
       turnflag = 1;
 
       PWMA = speed;
-      PWMB = speed / 2;
+      PWMB = speed / 2+7;
       break;
 
     case 'center':
@@ -55,10 +55,10 @@ function carmove(id) {
       PWMB = '00';
       break;
 
-    case 'right':
+    case 'left':
       turnflag = 2;
 
-      PWMA = speed / 2;
+      PWMA = speed / 2+7;
       PWMB = speed;
       break;
 
